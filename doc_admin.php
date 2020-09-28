@@ -11,20 +11,18 @@
           </ul>
           <h5>Partie Employés</h5>
           <ul class="uk-nav uk-nav-default doc-nav">
-            <li class="uk-active"><a href="doc.php">Espace employé</a></li>
-            <li><a href="doc2.php">Demande de congés</a></li>
-            <li><a href="doc.php">Fearured docs section</a></li>
-            <li><a href="doc.php">Video lightbox boxes section</a></li>
-            <li><a href="doc.php">Frequently asked questions section</a></li>
-            <li><a href="doc.php">Team members section</a></li>
-            <li><a href="doc.php">Call to action section</a></li>
+            <li><a href="doc_emp.php">Espace employé</a></li>
+            <li><a href="doc_conge">Demande de congés</a></li>
+            <li><a href="#">Mon profil</a></li>
+            <li><a href="#">Changer le mot de passe</a></li>
           </ul>
           <h5>Partie Admin</h5>
           <ul class="uk-nav uk-nav-default doc-nav">
-            <li><a href="doc_admin.php">Dashboard</a></li>
-            <li><a href="doc.php">Customization</a></li>
-            <li><a href="doc.php">Development</a></li>
-            <li><a href="doc.php">Sources and credits</a></li>
+            <li class="uk-active"><a href="doc_admin.php">Dashboard</a></li>
+            <li><a href="doc_dep.php">Departements</a></li>
+            <li><a href="doc_emp_admin.php">Employés</a></li>
+            <li><a href="doc_type_conge.php">Types de congés</a></li>
+            <li><a href="doc_ges_conge">Gestion des congés</a></li>
           </ul>
           <h5>Aide</h5>
           <ul class="uk-nav uk-nav-default doc-nav">
@@ -35,63 +33,48 @@
       <div class="uk-width-1-1 uk-width-expand@m">
         <article class="uk-article">
 
-      <div>
-        <h2 id="image-lightbox-example">Espace employés Gestion RH</h2>
-            <p>Après connexion vous être redirigez sur votre espace employé ou vous pouvez déjà voir
-              votre menu Profil, Mot de passe, Congés, Déconnexion.
-          </p>
-
-          <!-- <ul class="uk-list link-secondary">
-              <li><a href="#">Employé Connexion</a></li>
-              <li><a href="#">Admin Connexion</a></li>
-            </ul> -->
-            <figure data-uk-lightbox="animation: slide">
-              <a class="uk-inline" href="images/rh-accueil.jpg" data-caption="Image in lightbox">
-                <img src="images/employe-dash.jpg" alt="Alt for image">
-                <div class="uk-position-center">
-                  <span data-uk-overlay-icon></span>
-                </div>
-              </a>
-              <figcaption data-uk-grid class="uk-flex-right uk-grid uk-grid-stack"><span
-                  class="uk-width-auto uk-first-column">Image in lightbox</span></figcaption>
-                  <br>
-                  <p>Cette étape est très simple, il vous suffit de vous connectez avec vos identifiants
-                    pour accéder à vous interface de travail.
-                  </p>
-            </figure>
-      </div>
-
-      <div>
+        <div>
         <!-- <h2 id="image-lightbox-example">Espace employés Gestion RH</h2> -->
-        <br>
-        <hr>
-        <br>
-            <p>Pour faire une demande de congés vous n'avez qu'a cliqué sur "Congés" pour dérouler le Menu.
+             <p>Nous avons sur le "DASHBOARD" Toutes les informations disponibles sur notre entreprise et les employés
           </p>
-          
           <!-- <ul class="uk-list link-secondary">
               <li><a href="#">Employé Connexion</a></li>
               <li><a href="#">Admin Connexion</a></li>
             </ul> -->
             <figure data-uk-lightbox="animation: slide">
-              <a class="uk-inline" href="images/employe-congé-drop.jpg" data-caption="Image in lightbox">
-                <img src="images/employe-congé-drop.jpg" alt="Alt for image">
+              <a class="uk-inline" href="images/rh-admin-dash.jpg" data-caption="Image in lightbox">
+                <img src="images/rh-admin-dash.jpg" alt="Alt for image">
                 <div class="uk-position-center">
                   <span data-uk-overlay-icon></span>
                 </div>
               </a>
-              <figcaption data-uk-grid class="uk-flex-right uk-grid uk-grid-stack"><span
-                  class="uk-width-auto uk-first-column">Image in lightbox</span></figcaption>
-                  <br>
                   <!-- <p>Cette étape est très simple, il vous suffit de vous connectez avec vos identifiants
                     pour accéder à vous interface de travail.
                   </p> -->
             </figure>
       </div>
 
-      <a href="doc2.php" style="color:#e4a906; font-weight:bold;">Faire une demande de congés</a>
+       <div>
+        <!-- <h2 id="image-lightbox-example">Espace employés Gestion RH</h2> -->
+             <p>Dans le menu "DEPARTEMENT" nous avons deux options "AJOUTER UNE FONCTION" et "LISTE DES FONCTIONS"
+          </p>
+          <!-- <ul class="uk-list link-secondary">
+              <li><a href="#">Employé Connexion</a></li>
+              <li><a href="#">Admin Connexion</a></li>
+            </ul> -->
+            <figure data-uk-lightbox="animation: slide">
+              <a class="uk-inline" href="images/rh-admin-drop-depart.jpg" data-caption="Image in lightbox">
+                <img src="images/rh-admin-drop-depart.jpg" alt="Alt for image">
+                <div class="uk-position-center">
+                  <span data-uk-overlay-icon></span>
+                </div>
+              </a>
+                  <!-- <p>Cette étape est très simple, il vous suffit de vous connectez avec vos identifiants
+                    pour accéder à vous interface de travail.
+                  </p> -->
+            </figure>
+      </div>
 
-     
         </article>
       </div>
     </div>

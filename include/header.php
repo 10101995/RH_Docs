@@ -53,9 +53,9 @@
 	          </div>
 	          <ul class="uk-navbar-nav uk-visible@m">
 	            <li>
-	              <div class="uk-navbar-item">
+	              <!-- <div class="uk-navbar-item">
 	                <a class="uk-button uk-button-primary-outline" href="doc.php">Documentation</a>
-	              </div>
+	              </div> -->
 	            </li>
 	            <li>
 	              <div class="uk-navbar-item">

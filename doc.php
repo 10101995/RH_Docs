@@ -11,20 +11,18 @@
           </ul>
           <h5>Partie Employés</h5>
           <ul class="uk-nav uk-nav-default doc-nav">
-            <li><a href="doc1.php">Espace employé</a></li>
-            <li><a href="doc2.php">Demande de congés</a></li>
-            <li><a href="doc.php">Fearured docs section</a></li>
-            <li><a href="doc.php">Video lightbox boxes section</a></li>
-            <li><a href="doc.php">Frequently asked questions section</a></li>
-            <li><a href="doc.php">Team members section</a></li>
-            <li><a href="doc.php">Call to action section</a></li>
+            <li><a href="doc_emp.php">Espace employé</a></li>
+            <li><a href="doc_conge">Demande de congés</a></li>
+            <li><a href="#">Mon profil</a></li>
+            <li><a href="#">Changer le mot de passe</a></li>
           </ul>
           <h5>Partie Admin</h5>
           <ul class="uk-nav uk-nav-default doc-nav">
-            <li><a href="doc.php">Translation</a></li>
-            <li><a href="doc.php">Customization</a></li>
-            <li><a href="doc.php">Development</a></li>
-            <li><a href="doc.php">Sources and credits</a></li>
+            <li><a href="doc_admin.php">Dashboard</a></li>
+            <li><a href="doc_dep.php">Departements</a></li>
+            <li><a href="doc_emp_admin.php">Employés</a></li>
+            <li><a href="doc_type_conge.php">Types de congés</a></li>
+            <li><a href="doc_ges_conge">Gestion des congés</a></li>
           </ul>
           <h5>Aide</h5>
           <ul class="uk-nav uk-nav-default doc-nav">
@@ -52,8 +50,6 @@
                   <span data-uk-overlay-icon></span>
                 </div>
               </a>
-              <figcaption data-uk-grid class="uk-flex-right uk-grid uk-grid-stack"><span
-                  class="uk-width-auto uk-first-column">Image in lightbox</span></figcaption>
                   <br>
                   <p>Cette étape est très simple, il vous suffit de vous connectez avec vos identifiants
                     pour accéder à vous interface de travail.
